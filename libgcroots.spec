@@ -6,7 +6,7 @@ Summary:	Roots acquisition library for Garbage Collector
 #Summary(pl.UTF-8):	-
 Name:		libgcroots
 Version:	0.2.3
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		Libraries
 Source0:	http://sigscheme.googlecode.com/files/%{name}-%{version}.tar.bz2
