@@ -6,7 +6,7 @@ Summary:	Roots acquisition library for Garbage Collector
 Summary(pl.UTF-8):	Biblioteka do wydobywania podstaw do odśmiecania pamięci
 Name:		libgcroots
 Version:	0.2.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries
 #Source0Download: http://code.google.com/p/sigscheme/downloads/list
