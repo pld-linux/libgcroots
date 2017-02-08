@@ -9,10 +9,10 @@ Version:	0.2.3
 Release:	2
 License:	MIT
 Group:		Libraries
-#Source0Download: http://code.google.com/p/sigscheme/downloads/list
-Source0:	http://sigscheme.googlecode.com/files/%{name}-%{version}.tar.bz2
+#Source0Download: https://github.com/uim/libgcroots/releases
+Source0:	https://github.com/uim/libgcroots/releases/download/libgcroots-%{version}/%{name}-%{version}.tar.bz2
 # Source0-md5:	3c2e0ce9f8c09ad96aa88ebf15ac028d
-URL:		http://code.google.com/p/sigscheme/wiki/libgcroots
+URL:		https://github.com/uim/libgcroots
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
