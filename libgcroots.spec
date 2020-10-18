@@ -5,13 +5,13 @@
 Summary:	Roots acquisition library for Garbage Collector
 Summary(pl.UTF-8):	Biblioteka do wydobywania podstaw do odśmiecania pamięci
 Name:		libgcroots
-Version:	0.2.3
-Release:	2
+Version:	0.3.2
+Release:	1
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/uim/libgcroots/releases
-Source0:	https://github.com/uim/libgcroots/releases/download/libgcroots-%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	3c2e0ce9f8c09ad96aa88ebf15ac028d
+Source0:	https://github.com/uim/libgcroots/releases/download/%{version}/%{name}-%{version}.tar.bz2
+# Source0-md5:	c2575657a183d7953681c7e820a8a974
 URL:		https://github.com/uim/libgcroots
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -81,7 +81,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog README
+%doc COPYING README
 %attr(755,root,root) %{_libdir}/libgcroots.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libgcroots.so.0
 
@@ -89,7 +89,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libgcroots.so
 %{_includedir}/gcroots.h
-%{_includedir}/libgcroots
 %{_pkgconfigdir}/gcroots.pc
 
 %if %{with static_libs}
